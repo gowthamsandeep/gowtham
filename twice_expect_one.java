@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class twice_expect_one{
-    public static void main(String ar[])throws Exception
+    public static void main(String args[])throws Exception
 {
 int n,a,b,i,j;
 Scanner s=new Scanner(System.in);
@@ -31,7 +31,7 @@ continue;
 
 }
 else
-System.out.println(ary[i]);
+System.out.println("single value"+ary[i]);
 }
 }
 
