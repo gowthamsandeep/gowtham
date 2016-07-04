@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
-char str[20];
-int a;
+char s[20];
+int i;
 printf("Enter any string->");
-scanf("%s",str);
-printf("The string is->%s",str);
-for(a=0;a<=strlen(str);a++)
+scanf("%s",s);
+printf("The string is->%s",s);
+for(i=0;i<=strlen(s);i++)
 {
-if(str[a]>=97&&str[a]<=122)
-str[a]=str[a]-32;
+if(str[i]>=97&&s[i]<=122)
+str[i]=str[i]-32;
 }
-printf("\nThe string in camelcase is->%s",str);
+printf("\nThe string in camelcase is->%s",s);
 return 0;
 }
