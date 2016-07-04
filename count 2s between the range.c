@@ -20,6 +20,6 @@ count++;
 }
 a++;
 }
-printf("\n2s having:=%d",count);
+printf("\n2s having:=%d times",count);
 getch();
 }
